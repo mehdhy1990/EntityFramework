@@ -9,4 +9,6 @@ public class User
     public int Age { get; set; }
     public string AboutMe { get; set; }
     public DateTime CreateDate { get; set; }
+
+    public Blog Blog { get; set; }
 }
